@@ -1,0 +1,75 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-color: #425f43;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    /* border-radius: 25px; */
+    border-color: tan;
+    border-width: 2.5px;
+}
+
+.btn {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    color: blue;
+    background-color: burlywood;
+    font-weight: bolder;
+    border-color: coral;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.list {
+    list-style-type: circle;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+.list-item {
+    font-weight: bolder;
+    color: #FFF;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.delbtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    color: blue;
+    background-color: burlywood;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.editbtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    color: blue;
+    background-color: burlywood;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 398px) {
+    .input {
+        margin-left: 2px;
+    }
+    .btn {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .list {
+        margin-left: 10px;
+    }
+}

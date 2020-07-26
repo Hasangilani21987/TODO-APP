@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <input type="text" required id="input" class="input" placeholder="Enter Your Todo">
+        <button id="add-item" class="btn" onclick="add()">Add Item</button>
+        <button class = "btn"  onclick="deleteAll()">Delete All</button>
+    </div>
+
+
+    <div>
+        <ol id="list" class="list">
+
+        </ol>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
